@@ -24,7 +24,37 @@
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="nottosay">Not to Say</option>
-        </select>
+        </select> <br>
+
+        <label for="dob">Date Of Birth</label>
+        <input type="date" id="dob" name="dob">
+        <br>
+
+        <span>Rating</span>
+        <input type="radio" name="rating" id="rating1" value="1">
+        <label for="rating1">1</label>
+        <input type="radio" name="rating" id="rating2" value="2">
+        <label for="rating2">2</label>
+        <input type="radio" name="rating" id="rating3" value="3">
+        <label for="rating3">3</label>
+        <input type="radio" name="rating" id="rating4" value="4">
+        <label for="rating4">4</label>
+        <input type="radio" name="rating" id="rating5" value="5">
+        <label for="rating5">5</label>
+        <br>
+        <label for="msg">Enter Your message</label><br>
+        <textarea name="msg" id="msg" cols="30" rows="5" placeholder="Enter Your message!!"></textarea><br>
+         
+        <input type="submit" name="submit" id="submit" value="Submit">
+        <input type="reset" name="reset" id="reset" value="Reset"><br><br>
+        
+        <a href="http://www.youtube.com" target="_blank">
+            <img src="data:image/png;base64,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" alt="Youtube"
+            width="35px" height="25px">
+        </a>
+        <a href="http://www.instagram.com" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTdE21hRnfQEwDwtNBQlka6KvtMTXtvDErTA&usqp=CAU" alt="Instagram" width="35px" height="25px">
+        </a>
     </form>
 </body>
 </html>
