@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+      .container{
+        position: relative;
+        color: red;
+        text-align: center;
+        font-weight: bolder;
+      }
+      .top_left{
+        position: absolute;
+        top: 3px;
+        left: 3px;
+      }
+      .top_right{
+        position: absolute;
+        top: 3px;
+        right: 3px;
+      }
+      .bottom_left{
+        position: absolute;
+        bottom: 3px;
+        left: 3px;
+      }
+      .bottom_right{
+        position: absolute;
+        bottom: 3px;
+        right: 3px;
+      }
+      .center{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="/images/Web_Dev_670f900667.jpg" alt="image" width="100%">
+        <div class="top_left">TOP LEFT</div>
+        <div class="top_right">TOP RIGHT</div>
+        <div class="bottom_left">BOTTOM LEFT</div>
+        <div class="bottom_right">BOTTOM RIGHT</div>
+        <div class="center">CENTER</div>
+    </div>
+</body>
+</html>
