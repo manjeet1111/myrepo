@@ -31,3 +31,36 @@
     z-index: -1;
     object-fit: cover;
 }
+h1{
+    position: absolute;
+    top: 5rem;
+    font-size: 10rem;
+    color: white;
+    letter-spacing: 4px;
+}
+.text{
+    font-size: 1.5rem;
+    margin: 5rem 0;
+    padding: 0 10rem;
+}
+.bg{
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bg1{
+    background-image: url(/images/sport-1.jpg);
+}
+.bg2{
+    background-image: url(/images/sport-2.jpg);
+}
+.bg3{
+    background-image: url(/images/sport-3.jpg);
+}
+.desc{
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    color: black;
+    
+}
