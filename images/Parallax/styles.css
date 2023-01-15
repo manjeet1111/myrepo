@@ -11,6 +11,7 @@
 }
 .container{
     position: relative;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,14 +35,16 @@
 h1{
     position: absolute;
     top: 5rem;
-    font-size: 10rem;
+    font-size: 7rem;
     color: white;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
 }
 .text{
     font-size: 1.5rem;
     margin: 5rem 0;
     padding: 0 10rem;
+    background-color: rgb(45, 45, 45);
+    color: white;
 }
 .bg{
     background-attachment: fixed;
@@ -59,7 +62,6 @@ h1{
 .desc{
     position: absolute;
     background-color: white;
-    top: 50%;
     left: 50%;
     color: black;
     
