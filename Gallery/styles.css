@@ -19,6 +19,7 @@
     margin: 20px 0;
     margin-bottom: 20px;
     font-size: 3rem;
+    
 }
 .gallery{
     display: flex;
@@ -58,4 +59,6 @@
 .card:hover figcaption{
     opacity: 1;
     transform: scale(1.03);
+    background-color: white;
+    padding: 10px;
 }
