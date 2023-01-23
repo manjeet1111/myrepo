@@ -1,18 +1,77 @@
-* {
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 #wrapper{
-  background-color: #E5E5E5;
+  overflow-x: hidden;
+  height: 100vh;
 }
-.container{
-  position: absolute;
-width: 1440px;
-height: 1461px;
-left: 4px;
-top: 5px;
+.head-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 53px;
+  margin-left: 117px;
+  margin-right: 74px;
+}
+.head-text{
+  display: flex;
+  gap: 4rem;
+  
+}
+#team{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+color: #4E5DC0;
+}
+hr{
+  margin-top: 3px;
+  width: 45px; 
+  border: 1px solid #4E5DC0;
+}
+.head-text div{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+color: #777C85;
+}
+.start-project{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #4E5DC0;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  width: 165px;
+  height: 54px;
+  border-radius: 5px;
+  
+}
+.main-section1{
+  margin-top: 131px;
+  display: flex;
 
-background-color: #FFFFFF;
-border-radius: 0px;
+}
+.title1{
+  font-family: 'Roboto Flex';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  color: #16171C;
+  font-stretch: 100;
+  font-variation-settings: 
+  'GRAD' 122, 'slnt' 0, 'XTRA' 603, 'XOPQ' 96, 'YOPQ' 100, 
+  'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
 }
